@@ -7,6 +7,9 @@
 </head>
 <?php
     $plataforma = "DIO";
+    $cursos = 15;
+    $linguagens = ["PHP", "JAVA", "PYTHON"];
+    $data = date("d/m/Y")
 ?>
 <body>
     <h1>Curso sobre tipos em PHP</h1>
@@ -15,6 +18,7 @@
             echo $plataforma;
         ?>
     </h4>
+    <p>Atualmente, <?php echo $data ?>. <br>A <?php echo $plataforma ?> possui mais de <?php echo $cursos ?> cursos de <?php print_r($linguagens) ?></p>
     
 </body>
 </html>
